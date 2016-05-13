@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Physical Storage Solver</title>
+	<link rel="stylesheet" href="css/material.min.css" />
+	<link rel="stylesheet" href="css/material-icons.css" />
+	<link rel="stylesheet" href="css/app.css" />
+	<script src="js/material.min.js"></script>
+	<script src="js/glpk.min.js"></script>
+	<script src="js/mpbuilder.js"></script>
+	<script src="js/react-with-addons.min.js"></script>
+	<script src="js/react-dom.min.js"></script>
+	<script src="js/app.js"></script>
+  </head>
+	
+  <body>
+   <div id="main"></div>
+
+   <a href="https://github.com/lethalman/web-solver"><img style="position: absolute; top: 0; right: 0; border: 0;" src="img/forkme_ribbon.png" alt="Fork me on GitHub" /></a>
+	
+   <div class="ss-poweredby">
+	<hr/>
+	<span>Powered by <a href="https://github.com/hgourvest/glpk.js">glpk.js</a>,
+	 <a href="https://facebook.github.io/react/">react.js</a>,
+	 <a href="https://getmdl.io/">mdl</a>.
+	</span>
+   </div>
+   
+   <script>StorageSolver.start(document.getElementById("main"))</script>
+  </body>
+  
+</html>

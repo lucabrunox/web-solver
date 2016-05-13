@@ -1,0 +1,77 @@
+#main {
+	max-width: 80rem;
+	margin: auto;
+}
+
+@media (max-width: 70rem) {
+	#main {
+		max-width: 100%;
+	}
+}
+
+.mdl-textfield {
+	width: 6rem;
+}
+
+.mdl-slider__container {
+	width: 10rem;
+}
+
+.ss-inline {
+	display: inline-block;
+}
+
+.ss-margin {
+	margin: 0 0.5rem;
+}
+
+.ss-antimargin {
+	margin: 0 -0.5rem;
+}
+
+.ss-slidetext {
+	position: absolute;
+    margin-left: -6.7rem;
+    margin-top: 0.35rem;
+	font-size: 0.9rem;
+	color: rgb(96,125,139);
+}
+
+.ss-itembg {
+	background: #EEEEEE;
+}
+
+.ss-solstatus {
+	font-weight: bold;
+}
+
+.ss-green {
+	color: #1B5E20;
+}
+
+.ss-yellow {
+	color: #827717;
+}
+
+.ss-grey {
+	color: #757575;
+}
+
+.ss-red {
+	color: #B71C1C;
+}
+
+.ss-solvedvalue {
+	font-weight: bold;
+	margin-left: 0.6rem;
+}
+
+.ss-center {
+	margin: auto;
+}
+
+.ss-poweredby {
+	margin: 2rem auto;
+	width: 50%;
+	text-align: center;
+}
